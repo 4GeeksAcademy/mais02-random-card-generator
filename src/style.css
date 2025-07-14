@@ -1,5 +1,36 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background: green;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 20%;
+  height: 400px;
+  align-items: center;
+  font-size: 60px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+#randomSuitcss {
+  align-self: flex-start;
+  margin: -25px 0 0 2px;
+  font-size: 75px;
+  font-family: "EB Garamond", serif;
+}
+
+#mirrorcss {
+  align-self: flex-end;
+  margin: 5px 0 8px 0;
+  font-size: 75px;
+  font-family: "EB Garamond", serif;
+}
+
+#cardnum {
+  font-size: 125px;
+  font-family: "EB Garamond", serif;
 }
